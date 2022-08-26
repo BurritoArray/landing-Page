@@ -149,6 +149,31 @@ ul {
 }
 
 .footer {
-    flex:1;
-    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coa-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 900px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.coa-text {
+    width: 500px;
+    color: white;
+}
+
+.coa-sign-up {
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px;
 }
