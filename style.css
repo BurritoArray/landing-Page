@@ -127,8 +127,25 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex:1;
-    border: 1px black solid;
+}
+
+.quote-text {
+    width: 900px;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.thor {
+    font-size: 18px;
+    margin-top: 0px;
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
